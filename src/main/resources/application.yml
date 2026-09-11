@@ -1,0 +1,15 @@
+spring:
+    application:
+        name: wallet
+    main:
+        web-application-type: reactive
+
+binance:
+    ws-base-url: wss://stream.binance.com:9443/stream
+    symbols:
+        - BTCUSDT
+        - ETHUSDT
+
+logging:
+    level:
+        com.project.wallet: DEBUG
